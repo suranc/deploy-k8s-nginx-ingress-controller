@@ -4,7 +4,7 @@
 git submodule update --init --recursive
 
 # Enter into kubernetes-ingress repo
-cd kubernetes-ingress
+cd kubernetes-ingress/deployments
 
 kubectl apply -f common/ns-and-sa.yaml
 kubectl apply -f common/default-server-secret.yaml
